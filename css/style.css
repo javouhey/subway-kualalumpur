@@ -163,50 +163,67 @@ a:hover { color: #036; }
 
 
 /**
- * Primary styles
+ * Primary styles for this app
  *
- * Author: 
+ * Author: Gavin Bong 
  */
-
-    /* The main DIV for the map */
-    .subway-map
-    {
-        margin: 0;
-        width: 500px;
-        height:410px;
-        background-color: white;
-    }
-
-    /* Text labels */
-    .text
-    {
-        text-decoration: none;
-        color: black;
-    }
-
-    #legend
-    {
-        float: left;
-        width: 250px;
-        height:400px;
-    }
-
-    #legend div
-    {
-        height: 25px;
-    }
-
-    #legend span
-    {
-        margin: 5px 5px 5px 0;
-    }
-    .subway-map span
-    {
-        margin: 5px 5px 5px 0;
-    }
  
+header {
+  border-bottom: 1px dotted gray;
+  float: left;
+  width: 100%; 
+}
+/** 
+header {
+  border-bottom: 1px dotted gray;
+  float: left;
+}
+*/
+
+.edges {
+  padding: 20px;
+}
+ 
+/* The main DIV for the map */
+.subway-map {
+  margin: 0;
+  width: 500px;
+  height:410px;
+  background-color: white;
+}
+
+.text {
+  text-decoration: none;
+  color: black;
+}
+
+h1{ font-size: 2.8em; }
+h2{ font-size: 1.6em; font-weight: bold; }
+h3{ font-size: 1.2em; font-weight: bold; }
+
+#legend {
+  float: left;
+  width: 250px;
+  height:400px;
+}
+
+#legend div {
+  height: 25px;
+}
+
+#legend span {
+  margin: 5px 5px 5px 0;
+}
+
+.subway-map span {
+  margin: 5px 5px 5px 0;
+}
 
 
+
+/**
+ *------------------ end subway styles ---------------------
+ */
 
 /**
  * Non-semantic helper classes: please define your styles before this section.

@@ -36,6 +36,9 @@ handlers:
 # The URL /index.html is also handled by the index.py script.
 - url: /index\.html
   script: index.py
+  
+- url: /gavin
+  script: gavin.py
 
 # All other URLs use the not_found.py script.
 - url: /.*
