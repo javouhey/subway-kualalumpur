@@ -1,0 +1,43 @@
+application: subway
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /favicon\.ico
+  static_files: favicon.ico
+  upload: noop
+
+- url: /apple-touch-icon.png
+  static_files: apple-touch-icon.png
+  upload: noop
+
+- url: /robots\.txt
+  static_files: robots.txt
+  upload: noop
+
+- url: /humans\.txt
+  static_files: humans.txt
+  upload: noop
+
+- url: /js
+  static_dir: js
+
+- url: /js/libs
+  static_dir: js/libs
+
+- url: /css
+  static_dir: css
+
+# The root URL (/) is handled by the index.py script. No other URLs match this pattern.
+- url: /
+  script: index.py
+
+# The URL /index.html is also handled by the index.py script.
+- url: /index\.html
+  script: index.py
+
+# All other URLs use the not_found.py script.
+- url: /.*
+  script: not_found.py
+
