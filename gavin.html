@@ -41,28 +41,81 @@
     
     <!--div id="main" role="main"-->
 
-    <div class="subway-map" data-columns="12" data-rows="10" data-cellSize="40" data-legendId="legend" data-textClass="text" data-gridNumbers="true" data-grid="false" data-lineWidth="8">
-
-        <ul data-color="#ff4db2" data-label="jQuery Widgets">          
-            <li data-coords="2,2" data-marker="interchange"><a href="http://jqueryui.com/demos/accordion/">Cecile</a></li>  
-            <li data-coords="4,2"><a href="http://jqueryui.com/demos/autocomplete/"><a href="http://jqueryui.com/demos/autocomplete/">Auto\ncomplete</a></li>  
-            <li data-coords="5,3" data-dir="E"></li>  
-            <li data-coords="5,7" data-marker="@station" data-labelPos="W"><a href="http://jqueryui.com/demos/slider/">Slider</a></li> <!-- marker-only node -->  
-            <li data-coords="6,4" data-dir="S" data-marker="interchange" data-markerInfo="h5"><a href="http://jqueryui.com/demos/datepicker/">Date\npicker</a></li>  
-            <li data-coords="7,4"></li>  
-            <li data-coords="7.15,8" data-marker="@station" data-labelPos="E"><a href="http://jqueryui.com/demos/dialog/">Dialog</a></li>  <!-- marker-only node, moved to the right by 0.15 -->
-            <li data-coords="8,3" data-dir="E"></li>  
-            <li data-coords="8,2"></li>  
-            <li data-coords="9,1" data-dir="N"></li>  
-            <li data-coords="10,2" data-dir="E" data-marker="interchange" data-labelPos="E"><a href="http://jqueryui.com/demos/button/">Button</a></li>  
-            <li data-coords="10,5"></li>  
-            <li data-coords="9,6" data-dir="S" data-marker="station"><a href="http://jqueryui.com/demos/progressbar/">Progress\nbar</a></li>  
-            <li data-coords="6,9"></li>  
-            <li data-coords="5,8" data-dir="W"></li>  
-            <li data-coords="5,7"></li>  
-            <li data-coords="4,6" data-dir="N"></li>  
-            <li data-coords="2,6"><a href="http://jqueryui.com/demos/tabs/">Tabs</a></li>  
+    <div class="subway-map" data-columns="25" data-rows="25" data-cellSize="40" data-legendId="legend" data-textClass="text" data-gridNumbers="true" data-grid="true" data-lineWidth="8">
+    
+        <ul data-color="#00cccc" data-label="Komuter 2" data-shiftCoords="-1,0">          
+          <li data-coords="2.3,1" data-marker="interchange" data-labelPos="E"><a href="#">Rawang</a></li>
+          <li data-coords="2.5,2"></li>
+          <li data-coords="2.5,2" data-marker="@station" data-labelPos="E"><a href="#">Kuang</a></li>
+          <li data-coords="3,2.9" data-marker="@station" data-labelPos="S"><a href="#">Sungai\nBuloh</a></li>
+          <li data-coords="4.5,3" data-marker="@station" data-labelPos="S"><a href="#">Kepong\nSentral</a></li>
+          <li data-coords="5.7,3" data-marker="@station" data-labelPos="N"><a href="#">Kepong</a></li>
+          <li data-coords="7.3,3" data-marker="@station" data-labelPos="N"><a href="#">Segambut</a></li>
+          <li data-coords="3.8,3" data-dir="S"></li>
+          <li data-coords="7,3"></li>
+          <li data-coords="8,4" data-dir="E"></li>
+          <li data-coords="8,11"></li>
         </ul>
+        
+        <ul data-color="#0000ff" data-label="Ampang Line">
+          <li data-coords="12,1" data-marker="interchange" data-labelPos="E"><a href="#">Sentul Timur</a></li>
+          <li data-coords="12,3.5" data-marker="station" data-labelPos="E"><a href="#">Sentul</a></li>
+          <li data-coords="12,5" data-marker="station" data-labelPos="E"><a href="#">Titiwangsa</a></li>
+          <li data-coords="12,6.5" data-marker="@station" data-labelPos="E"><a href="#">PWTC</a></li>
+          <li data-coords="12,7"></li>
+          <li data-coords="11,8" data-marker="station" data-dir="S"></li>
+          <li data-coords="11.7,7.8" data-marker="@station" data-labelPos="S"><a href="#">Sultan Ismail</a></li>
+          <li data-coords="10,8"></li>
+          <li data-coords="9,9" data-dir="W" data-labelPos="E"><a href="#">Bandaraya</a></li>
+          <li data-coords="10,10" data-dir="S"></li>
+          <li data-coords="11,10"></li>
+          <li data-coords="12,11" data-dir="E"></li>
+          <li data-coords="13,11"></li>
+          <li data-coords="14,12" data-dir="S"><a href="#">Plaza Rakyat</a></li>
+          <li data-coords="15,12" data-marker="station" data-labelPos="N"><a href="#">Hang Tuah</a></li>
+          <li data-coords="16,12" data-marker="station" data-labelPos="S"><a href="#">Pudu</a></li>
+          <li data-coords="17,12" data-marker="@interchange" data-labelPos="E"><a href="#">Chan Sow Lin</a></li>
+        </ul> 
+        
+        <ul data-color="#bbff00" data-label="Komuter 1">          
+          <li data-coords="8,1" data-marker="interchange" data-labelPos="E"><a href="#">Sentul</a></li>
+          <li data-coords="8,7"></li>
+          <li data-coords="7.9,7" data-marker="@interchange" data-labelPos="W"><a href="#">Putra</a></li>
+          <li data-coords="8,9"></li>
+          <li data-coords="7.9,9" data-marker="@interchange" data-labelPos="W" data-markerInfo="h5"><a href="#">Bank Negara</a></li>
+          <li data-coords="8,11"></li>
+        </ul>
+ 
+        <ul data-color="#ff4db2" data-label="Kelana Jaya Line">
+          <li data-coords="17,1" data-marker="interchange" data-labelPos="E"><a href="#">Gombak</a></li>
+          <li data-coords="17,2" data-marker="station" data-labelPos="E"><a href="#">Tmn. Melati</a></li>
+          <li data-coords="17,3" data-marker="station" data-labelPos="E"><a href="#">Wangsa Maju</a></li>
+          <li data-coords="17,4" data-marker="station" data-labelPos="E"><a href="#">Setiawangsa</a></li>
+          <li data-coords="17,5" data-marker="station" data-labelPos="E"><a href="#">Jelatek</a></li>
+          <li data-coords="17,6" data-marker="station" data-labelPos="E"><a href="#">Dato' Keramat</a></li>
+          <li data-coords="17,7" data-marker="station" data-labelPos="E"><a href="#">Damai</a></li>
+          <li data-coords="16,8" data-dir="S"></li>
+          <li data-coords="15.9,8" data-marker="@station" data-labelPos="W"><a href="#">&nbsp;Ampang Park</a></li>
+          <li data-coords="15,8.7" data-marker="@station" data-labelPos="E"><a href="#">&nbsp;KLCC</a></li>
+          <li data-coords="14.5,9.5" data-marker="@station" data-labelPos="E"><a href="#">&nbsp;Kampung Baru</a></li>
+          <li data-coords="14,10.2" data-marker="@station" data-labelPos="E"><a href="#">Dang Wangi</a></li>
+          <li data-coords="13,11" data-dir="s" data-marker="interchange"><a href="#"></a></li>
+          <li data-coords="12,11" data-dir="W" data-marker="interchange" data-labelPos="S" data-markerInfo="h5"><a href="#">Masjid Jamek&nbsp;&nbsp;</a></li>
+          <li data-coords="10,11" data-marker="station" data-labelPos="N"><a href="#">Pasar Seni</a></li>
+          <li data-coords="8,11"></li>
+          <li data-coords="7,11" data-marker="@interchange" data-labelPos="N" data-markerInfo="h5.2"><a href="#">KL Sentral&nbsp;&nbsp;</a></li>
+          <li data-coords="5,11" data-marker="station" data-labelPos="S"><a href="#">Bangsar</a></li>
+          <li data-coords="3.5,11" data-marker="station" data-labelPos="N"><a href="#">Abdullah Hukum</a></li>
+          <li data-coords="2.3,12" data-dir="W"></li>
+          <li data-coords="2.3,12" data-marker="@station" data-labelPos="E"><a href="#">Kerinchi</a></li>
+          <li data-coords="2.3,13" data-marker="station" data-labelPos="E"><a href="#">Universiti</a></li>
+          <li data-coords="2.3,14" data-marker="station" data-labelPos="E"><a href="#">Taman Jaya</a></li>
+          <li data-coords="2.3,15" data-marker="station" data-labelPos="E"><a href="#">Asia Jaya</a></li>
+          <li data-coords="2.3,16" data-marker="station" data-labelPos="E"><a href="#">Taman Paramount</a></li>
+          <li data-coords="2.3,17" data-marker="station" data-labelPos="E"><a href="#">Taman Bahagia</a></li>
+          <li data-coords="2.3,18" data-marker="interchange" data-labelPos="E"><a href="#">Kelana Jaya</a></li>
+        </ul>
+
 
     </div>
     <div id="legend"></div>

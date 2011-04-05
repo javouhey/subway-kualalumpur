@@ -173,22 +173,18 @@ header {
   float: left;
   width: 100%; 
 }
-/** 
-header {
-  border-bottom: 1px dotted gray;
-  float: left;
-}
-*/
 
 .edges {
-  padding: 20px;
+  padding-left: 80px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
  
 /* The main DIV for the map */
 .subway-map {
   margin: 0;
   width: 500px;
-  height:410px;
+  height:800px;
   background-color: white;
 }
 
