@@ -152,11 +152,19 @@ body, select, input, textarea {
   /* #444 looks better than black: twitter.com/H_FJ/statuses/11800719859 */
   color: #444;
   /* Set your base font here, to apply evenly */
-  /* font-family: Georgia, serif;  */
+  font-family: "Droid Sans", Georgia, serif; 
 }
 
 /* Headers (h1, h2, etc) have no default font-size or margin; define those yourself */
-h1, h2, h3, h4, h5, h6 { font-weight: bold; }
+h1, h2, h4, h5, h6 { 
+  font-weight: bold; 
+  font-family: "Permanent Marker", Times, serif;
+}
+
+h3 {
+  font-weight: bold; 
+  font-family: "Droid Sans", Times, serif;
+}
 
 a, a:active, a:visited { color: #607890; }
 a:hover { color: #036; }
@@ -184,7 +192,7 @@ header {
 .subway-map {
   margin: 0;
   width: 500px;
-  height:800px;
+  height:1000px;
   background-color: white;
 }
 
