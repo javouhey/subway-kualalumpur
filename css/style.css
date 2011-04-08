@@ -152,7 +152,7 @@ body, select, input, textarea {
   /* #444 looks better than black: twitter.com/H_FJ/statuses/11800719859 */
   color: #444;
   /* Set your base font here, to apply evenly */
-  font-family: "Droid Sans", Georgia, serif; 
+  font-family: "Droid Sans", Georgia, Sans-serif; 
 }
 
 /* Headers (h1, h2, etc) have no default font-size or margin; define those yourself */
@@ -163,11 +163,11 @@ h1, h2, h4, h5, h6 {
 
 h3 {
   font-weight: bold; 
-  font-family: "Droid Sans", Times, serif;
+  font-family: "Droid Sans", Georgia, Sans-serif;
 }
 
 a, a:active, a:visited { color: #607890; }
-a:hover { color: #036; }
+a:hover { color: #036; font-weight: bold; display: inline; }
 
 
 /**
@@ -192,7 +192,7 @@ header {
 .subway-map {
   margin: 0;
   width: 500px;
-  height:1000px;
+  height:900px;
   background-color: white;
 }
 
@@ -206,9 +206,10 @@ h2{ font-size: 1.6em; font-weight: bold; }
 h3{ font-size: 1.2em; font-weight: bold; }
 
 #legend {
+  padding-left: 80px;
   float: left;
   width: 250px;
-  height:400px;
+  height:200px;
 }
 
 #legend div {
@@ -219,11 +220,43 @@ h3{ font-size: 1.2em; font-weight: bold; }
   margin: 5px 5px 5px 0;
 }
 
+footer {
+  clear: both;
+  margin: 0 auto;
+  height: 180px;
+  background-color: #111111;
+  background-color: rgba(11, 11, 13, 0.6);  
+  color: white;
+  padding-top: 40px;
+}
+
+.para {
+  padding-left: 80px;
+}
+
+.para a, .para a:active, .para a:visited { color: #ffff33; }
+
+.social {
+  padding-top: 5px;
+  padding-left: 80px;
+}
+
 .subway-map span {
   margin: 5px 5px 5px 0;
 }
 
+.license {
+  padding-left: 80px; 
+  padding-top: 20px; 
+  text-align: left;
+}
 
+.license a, .license a:active, .license a:visited { color: #ffff33; }
+
+#noncanvas {
+  padding-left: 80px; 
+  display: none; 
+}
 
 /**
  *------------------ end subway styles ---------------------

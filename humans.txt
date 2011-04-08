@@ -4,17 +4,17 @@
 
 /* TEAM */
   Mr: Gavin Bong
-  Site: 
-  Twitter: @javouhey
+  Site: http://raverun.com
+  Twitter: @chihiro
   Location: Kuala Lumpur, Malaysia
 
 /* THANKS */
-  Names (& URL): 
+  Names (& URL): Paul Irish, Nik Kalyani
 
 /* SITE */
-  Standards: HTML5, CSS3
+  Standards: HTML5
   Components: Modernizr, jQuery
-  Software:
+  Software: Google App Engine, Python
   
 
                                     

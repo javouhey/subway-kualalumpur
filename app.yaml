@@ -11,6 +11,10 @@ handlers:
 - url: /apple-touch-icon.png
   static_files: apple-touch-icon.png
   upload: noop
+  
+- url: /klsubway.jpg
+  static_files: img/klsubway.jpg
+  upload: noop
 
 - url: /robots\.txt
   static_files: robots.txt
