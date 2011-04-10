@@ -1,15 +1,15 @@
 application: subwaykl
-version: 1
+version: 2
 runtime: python
 api_version: 1
 
 handlers:
-- url: /favicon\.ico
-  static_files: favicon.ico
+- url: /favicon.ico
+  static_files: img/favicon.ico
   upload: noop
 
 - url: /apple-touch-icon.png
-  static_files: apple-touch-icon.png
+  static_files: img/apple-touch-icon.png
   upload: noop
   
 - url: /klsubway.jpg
@@ -19,12 +19,12 @@ handlers:
 - url: /images
   static_dir: img
 
-- url: /robots\.txt
-  static_files: robots.txt
+- url: /robots.txt
+  static_files: media/robots.txt
   upload: noop
 
-- url: /humans\.txt
-  static_files: humans.txt
+- url: /humans.txt
+  static_files: media/humans.txt
   upload: noop
 
 - url: /js
